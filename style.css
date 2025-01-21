@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  body {
+    background-color: rgb(237 146 146);
+  }
+
+  .wrapper {
+    width: 90%;
+    height: 100vh;
+    position: relative;
+    margin-left: 10vw;
+    display: flex;
+  }
+
+  .left {
+    width: 25vw;
+    height: 65vh;
+  }
+
+  .left img {
+    position: absolute;
+    width: 35vw;
+    transform: translateY(25%);
+  }
+
+  .right {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    transform: translate(15%, 25%);
+    color: white;
+  }
+
+  .right > div {
+    margin-top: 10px;
+  }
+
+  div del {
+    font-weight: 200;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+
+  .Colors {
+    display: flex;
+    align-items: center;
+  }
+
+  .shades img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #fa6a6a;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+  }
+
+  #chair1 {
+    opacity: 1;
+  }
+
+  .chairs {
+    opacity: 0;
+    color: white;
+  }
